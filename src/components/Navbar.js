@@ -34,7 +34,7 @@ export default function Navbar(props) {
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" +
+              "lg:flex flex-grow items-center bg-local lg:bg-transparent lg:shadow-none" +
               (navbarOpen ? " block rounded shadow-lg" : " hidden")
             }
             id="example-navbar-warning"
@@ -43,14 +43,10 @@ export default function Navbar(props) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
              <li className="flex items-center">
                 <button
-                  className={
-                    (props.transparent
-                      ? "bg-white text-gray-800 active:bg-gray-100"
-                      : "bg-green-500 text-white active:bg-green-700 ") +
-                    " text-xs font-bold uppercase px-4 py-2 rounded-2xl shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                  className={ "bg-green-500 text-white active:bg-green-700 text-xs font-bold uppercase px-4 py-2 rounded-2xl shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                   }
                   type="button"
-                  style={{ transition: "all .15s ease" }}
+                  style={{ transition: "all .15s ease " }}
                 >
                   <i className="fas fa-arrow-alt-circle-down"></i> Contáctanos
                 </button>
