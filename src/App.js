@@ -2,6 +2,7 @@ import React,{useEffect} from "react";
 import './assets/main.css';
 import Navbar from './components/Navbar.js';
 import Landing from './components/landing.js';
+import Footer from './components/Footer.js';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -14,6 +15,7 @@ function App() {
     <>
       <Navbar transparent/>
       <Landing />
+      <Footer />
     </>
   );
 }

@@ -43,7 +43,7 @@ export default function Navbar(props) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
              <li className="flex items-center">
                 <button
-                  className={ "bg-green-500 text-white active:bg-green-700 text-xs font-bold uppercase px-4 py-2 rounded-2xl shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                  className={ " hover:bg-black bg-green-500 text-white active:bg-green-700 text-xs font-bold uppercase px-4 py-2 rounded-2xl shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                   }
                   type="button"
                   style={{ transition: "all .15s ease " }}
