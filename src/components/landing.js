@@ -24,10 +24,14 @@ const Landing = () => {
     // submit
     const submit = async (Name, Email) => {
         if (Name.trim() !== '' && Email.trim() !== '') {
+            const db = firebase.firestore();
             await db.collection('data').add({
                 name: Name,
                 email: Email,
-            });
+            })
+            .then(() => console.log('yes'))
+            .catch((error) => console.log(error));
+            
             setName('');
             setEmail('');
         }
