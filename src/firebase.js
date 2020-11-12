@@ -2,14 +2,14 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const config = {
-  apiKey: 'AIzaSyDPLxKxN3DMOx8ngA3eMAdIX9QuoOHyAmw',
-  authDomain: 'klk-messenger.firebaseapp.com',
-  databaseURL: 'https://klk-messenger.firebaseio.com/',
-  projectId: 'klk-messenger',
-  storageBucket: 'klk-messenger.appspot.com',
-  messagingSenderId: '867379790697',
-  appId: '1:867379790697:web:b9936f99da8fce662ef3f8',
-  measurementId: 'G-PE3KSQLXP1',
+  apiKey: "AIzaSyA5qWjIQTtMOYODGxPgvbl3juGU0GCfasI",
+  authDomain: "let-s-goal-web.firebaseapp.com",
+  databaseURL: "https://let-s-goal-web.firebaseio.com",
+  projectId: "let-s-goal-web",
+  storageBucket: "let-s-goal-web.appspot.com",
+  messagingSenderId: "1050387670604",
+  appId: "1:1050387670604:web:c99cb5409ed7e4f24036e9",
+  measurementId: "G-HYXTWTBRWD"
 };
 firebase.initializeApp(config);
 
