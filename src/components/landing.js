@@ -40,13 +40,13 @@ const Landing = () => {
         <main>
             <div className="relative pt-16 pb-32 block content-center items-center justify-center"
             style={{
-              minHeight: "75vh"
+              minHeight: "100vh"
             }}>
                 <div className="absolute top-0 w-full h-full bg-center bg-cover"
                     style={{
-                        backgroundImage: "url(" + background + ")",
+                        backgroundImage: "url(" + ImageBackground + ")",
                     }}>
-                    <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
+                    <span id="blackOverlay" className="w-full h-full absolute opacity-50 bg-black"></span>
             </div>
             <div className="relative flex-start mx-auto mt-20">
                 <div className="items-center flex flex-wrap">
@@ -63,8 +63,8 @@ const Landing = () => {
             <section className="relative mt-0 flex block py-24 lg:pt-60 bg-gray-900">
             <div className="container mx-auto px-8 mt-10">
                 <div className="flex flex-wrap justify-center lg:-mt-20 -mt-48">
-                <div className="w-full lg:w-6/12 px-4">
-                    <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+                <div className="w-full lg:w-8/12 px-4">
+                    <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="0">
                     <div className="flex-auto p-5 lg:p-10">
                         <h4 className="text-2xl font-semibold">
                         ¿Quieres enterarte de todas las novedades?
