@@ -42,6 +42,8 @@ export default function Navbar(props) {
             
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
              <li className="flex items-center">
+                
+             <a href="https://api.whatsapp.com/send?phone=573508761275&text=Estoy%20intesado%20en%20conocer%20m%C3%A1s%20sobre%20Let%27s%20Goal%2C%20la%20aplicaci%C3%B3n%20m%C3%B3vil%20que%20va%20a%20revolucionar%20el%20futbol.">
                 <button
                   className={ " hover:bg-black bg-green-500 text-white active:bg-green-700 text-xs font-bold uppercase px-4 py-2 rounded-2xl shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                   }
@@ -50,6 +52,7 @@ export default function Navbar(props) {
                 >
                   <i className="fas fa-arrow-alt-circle-down"></i> Contáctanos
                 </button>
+                </a>
               </li>
             </ul>
           </div>

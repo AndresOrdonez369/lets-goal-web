@@ -53,7 +53,7 @@ const Landing = () => {
                     <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                         <div className="pr-12">
                             <h1 className="text-white font-semibold text-5xl" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="0">
-                                Welcome to soccer revolution.
+                                Bievenido a la revolución digital del fútbol
                             </h1>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Landing = () => {
                     <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="0">
                     <div className="flex-auto p-5 lg:p-10">
                         <h4 className="text-2xl font-semibold">
-                        ¿Quieres enterarte de todas las novedades?
+                        ¿Quieres revolucionar el futbol con nosotros?
                         </h4>
                         <p className="leading-relaxed mt-1 mb-4 text-gray-600">
                         Completa este formulario y recibirás todas las noticias.
