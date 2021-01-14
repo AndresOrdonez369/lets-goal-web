@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="relative pt-8 pb-6 bg-gray-900">
         <div className="container mx-auto px-4">
-          <div className="flex justify-center ">
+          <div className="flex self-center justify-center ">
             <div  className="mb-4" >
                 <a href="https://www.facebook.com/Lets-Goal-2124280581013490" title="Mirar Facebook">
                   <button
